@@ -1,0 +1,115 @@
+body{
+
+    background-color: rgb(194, 199, 202);
+}
+.body-container{
+    
+    background-color: rgb(194, 199, 202);
+    filter: drop-shadow(16px 16px 20px black);
+    
+}
+
+.carousel-item{
+    height: 500px;
+}
+
+.carousel-image-1 {
+    background: url("./images/images1.jpg")  no-repeat;
+    background-size: cover; }
+  
+.carousel-image-2 {
+    background: url("./images/images2.jpg")   no-repeat;
+    background-size: cover; }
+
+.carousel-image-3 {
+    background: url("./images/images3.jpg")   no-repeat;
+    background-size: cover; }
+
+
+
+
+.grid-image-1 {
+    background: url("./images/images5.jpg")  no-repeat;
+    background-size:cover; }
+    
+.grid-image-2 {
+    background: url("./images/images6.jpg")   no-repeat;
+    background-size: cover; }
+
+.grid-image-3 {
+    background: url("./images/images7.jpg")   no-repeat;
+    background-size: cover; }
+    
+.image-container{
+    border: 3px solid black;
+
+    filter: drop-shadow(16px 16px 20px rgb(149, 149, 187));
+}
+
+
+@media only screen and (max-width:600px){
+    body{
+        background-color: rgb(202, 194, 194);
+    }
+
+    .body-container{
+        
+        background-color: rgb(194, 199, 202);
+        filter: drop-shadow(16px 16px 20px black);
+        
+    }
+    .carousel-item{
+        height: 230px;
+    }
+    h1{
+        font-size: 2vw;
+    }
+    p{
+        font-size: 2vw;
+    }
+    .btn{
+        height: 10px;
+        width: 50px;
+    }
+    .carousel-image-1 {
+        background: url("./images/images1.jpg") bottom no-repeat ;
+        background-size:contain;
+     }
+      
+    .carousel-image-2 {
+        background: url("./images/images2.jpg") bottom  no-repeat;
+        background-size: contain;
+     }
+    
+    .carousel-image-3 {
+        background: url("./images/images3.jpg")  bottom no-repeat;
+        background-size: contain; }
+    
+    
+    
+    
+    .grid-image-1 {
+        background: url("./images/images5.jpg") center no-repeat;
+        background-size:cover;
+     }
+        
+    .grid-image-2 {
+        background: url("./images/images6.jpg")  center no-repeat;
+        background-size: cover; }
+    
+    .grid-image-3 {
+        background: url("./images/images7.jpg")   center no-repeat;
+        background-size: cover; }
+        
+    .image-container{
+        margin: auto;
+        
+        border: 3px solid black;
+        width: 250px;
+        height: 250px;
+        filter: drop-shadow(16px 16px 20px rgb(149, 149, 187));
+    }
+    
+}
+
+
